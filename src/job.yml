@@ -7,9 +7,9 @@ command: >-
 inputs:
   training_data: 
     type: uri_folder 
-    path: 
+    path: https://github.com/hadil1999-creator/challenge-1/tree/main/experimentation/data 
   reg_rate: 0.01
 environment: azureml:AzureML-sklearn-0.24-ubuntu18.04-py37-cpu@latest
-compute: 
-experiment_name: 
-description: 
+compute: computeinstance	
+experiment_name: challeng1
+description: challeng1
