@@ -1,16 +1,15 @@
 $schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
 code: model
 command: >-
-    python 
-    --
-    --
+  python 
 inputs:
-    training_data: 
-        type: uri_folder 
-        path: https://github.com/hadil1999-creator/challenge-1/tree/main/experimentation/data 
+  training_data: 
+    type: uri_folder 
+    path: https://github.com/hadil1999-creator/challenge-1/tree/main/experimentation/data 
 reg_rate: 0.01
 environment: azureml:AzureML-sklearn-0.24-ubuntu18.04-py37-cpu@latest
 compute: computeinstance
 experiment_name: challeng1
 description: challeng1
+
 
